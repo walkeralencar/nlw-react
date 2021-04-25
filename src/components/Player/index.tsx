@@ -1,5 +1,3 @@
-import format from 'date-fns/format';
-import ptBR from 'date-fns/locale/pt-BR';
 import styles from './styles.module.scss';
 
 export function Player() {
@@ -23,8 +21,9 @@ export function Player() {
           </div>
           <span>00:00</span>
         </div>
+
         <div className={styles.buttons}>
-        <button type="button">
+          <button type="button">
             <img src="/shuffle.svg" alt="Embaralhar"/>
           </button>
           <button type="button">
@@ -39,7 +38,6 @@ export function Player() {
           <button type="button">
             <img src="/repeat.svg" alt="Repetir"/>
           </button>
-
         </div>
       </footer>
     </div>
